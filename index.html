@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <nav class="side_bar">
+    <div class="side_bar-logo">
+      <img class="side_bar-logo-picture" src="./img/Logo.svg"/>
+      <h1 class="side_bar-logo-title">Dashboard</h1>
+      <p class="side_bar-logo-version">v.01</p>
+    </div>
+    <ul class="side_bar-nav">
+      <a class="side_bar-nav-link"><img class="side_bar-nav-link-icon" src="./img/Dashboard-icon.svg"/><p class="side_bar-nav-link-title">Dashboard</p>⠀</a>
+      <a class="side_bar-nav-link"><img class="side_bar-nav-link-icon" src="./img/Product-icon.svg"/><p class="side_bar-nav-link-title">Product</p> &gt</a>
+      <a class="side_bar-nav-link selected"><img class="side_bar-nav-link-icon" src="./img/Customers-icon.svg"/><p class="side_bar-nav-link-title">Customers</p> &gt</a>
+      <a class="side_bar-nav-link"><img class="side_bar-nav-link-icon" src="./img/Income-icon.svg"/><p class="side_bar-nav-link-title">Income</p> &gt</a>
+      <a class="side_bar-nav-link"><img class="side_bar-nav-link-icon" src="./img/Promote-icon.svg"/><p class="side_bar-nav-link-title">Promote</p> &gt</a>
+      <a class="side_bar-nav-link"><img class="side_bar-nav-link-icon" src="./img/Help-icon.svg"/><p class="side_bar-nav-link-title">Help</p> &gt</a>
+    </ul>
+    <div class="side_bar-user">
+      <img class="side_bar-user-picture" src="./img/User-img.png"/>
+      <div class="side_bar-user-data">
+        <h1 class="side_bar-user-data-name">Evano</h1>
+        <p class="side_bar-user-data-job_title">Project Manager</p>
+      </div>
+    </div>
+  </nav>
+  <main class="main">
+    <p class="main-hello_message">Hello Evano 👋🏼,</p>
+    <div class="customers">
+      <div class="customers-header">
+        <div>
+          <h2 class="customers-header-title">All Customers</h2>
+          <h3 class="customers-header-microtitle">Active Members</h3>
+        </div>
+        <input class="customers-header-search" type="text" placeholder="Search"/>
+      </div>
+      <table class="customers-list">
+        <tr class="customers-list-titles">
+          <td>Customer name</td>
+          <td>Company</td>
+          <td>Phone Number</td>
+          <td>Email</td>
+          <td>Country</td>
+          <td>Status</td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Jane Cooper</td>
+          <td class="customers-list-info-company">Microsoft</td>
+          <td class="customers-list-info-phone_number">(225) 555-0118</td>
+          <td class="customers-list-info-email">jane@microsoft.com</td>
+          <td class="customers-list-info-country">United States</td>
+          <td class="customers-list-info-status"><div class="active">Active</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Floyd Miles</td>
+          <td class="customers-list-info-company">Yahoo</td>
+          <td class="customers-list-info-phone_number">(205) 555-0100</td>
+          <td class="customers-list-info-email">floyd@yahoo.com</td>
+          <td class="customers-list-info-country">Kiribati</td>
+          <td class="customers-list-info-status"><div class="inactive">Inactive</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Ronald Richards</td>
+          <td class="customers-list-info-company">Adobe</td>
+          <td class="customers-list-info-phone_number">(302) 555-0107</td>
+          <td class="customers-list-info-email">ronald@adobe.com</td>
+          <td class="customers-list-info-country">Israel</td>
+          <td class="customers-list-info-status"><div class="inactive">Inactive</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Marvin McKinney</td>
+          <td class="customers-list-info-company">Tesla</td>
+          <td class="customers-list-info-phone_number">(252) 555-0126</td>
+          <td class="customers-list-info-email">marvin@tesla.com</td>
+          <td class="customers-list-info-country">Iran</td>
+          <td class="customers-list-info-status"><div class="active">Active</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Jerome Bell</td>
+          <td class="customers-list-info-company">Google</td>
+          <td class="customers-list-info-phone_number">(629) 555-0129</td>
+          <td class="customers-list-info-email">jerome@google.com</td>
+          <td class="customers-list-info-country">Réunion</td>
+          <td class="customers-list-info-status"><div class="active">Active</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Kathryn Murphy</td>
+          <td class="customers-list-info-company">Microsoft</td>
+          <td class="customers-list-info-phone_number">(406) 555-0120</td>
+          <td class="customers-list-info-email">kathryn@microsoft.com</td>
+          <td class="customers-list-info-country">Curaçao</td>
+          <td class="customers-list-info-status"><div class="active">Active</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Jacob Jones</td>
+          <td class="customers-list-info-company">Yahoo</td>
+          <td class="customers-list-info-phone_number">(208) 555-0112</td>
+          <td class="customers-list-info-email">jacob@yahoo.com</td>
+          <td class="customers-list-info-country">Brazil</td>
+          <td class="customers-list-info-status"><div class="active">Active</div></td>
+        </tr>
+        <tr class="customers-list-info">
+          <td class="customers-list-info-customer_name">Kristin Watson</td>
+          <td class="customers-list-info-company">Facebook</td>
+          <td class="customers-list-info-phone_number">(704) 555-0127</td>
+          <td class="customers-list-info-email">kristin@facebook.com</td>
+          <td class="customers-list-info-country">Åland Islands</td>
+          <td class="customers-list-info-status"><div class="inactive">Inactive</div></td>
+        </tr>
+      </table>
+      <div class="customers-footer">
+        <p class="customers-footer-showed_data">Showing data 1 to 8 of  256K entries</p>
+        <div class="customers-footer-pages">
+          <a class="customers-footer-pages-button">&lt</a>
+          <a class="customers-footer-pages-button selected">1</a>
+          <a class="customers-footer-pages-button">2</a>
+          <a class="customers-footer-pages-button">3</a>
+          <a class="customers-footer-pages-button">4</a>
+          <a>...</a>
+          <a class="customers-footer-pages-button">40</a>
+          <a class="customers-footer-pages-button">&gt</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
